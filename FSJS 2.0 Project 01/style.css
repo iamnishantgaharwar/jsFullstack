@@ -26,6 +26,10 @@
 }
 .list-item{
     padding: 20px;
+    color: #758283;
+}
+.list-item:nth-child(1){
+    color: #0D0D0D;
 }
 .nav-button{
     padding: 15px 30px;
@@ -60,4 +64,7 @@
 }
 .btn{
     margin-top: 60px;
+}
+.banner-container div img{
+    margin-left: auto;
 }
