@@ -1,2 +1,63 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Poppins;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 180px;
+    align-items: center;
+}
+.grow-list{
+    margin-right: auto;
+    
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.list-item{
+    padding: 20px;
+}
+.nav-button{
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: #7475DA;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    font-weight: 400;
+    margin-left: auto;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 177px;
+}
+
+.heading-text{
+    width: 50vh;
+    font-size: 50px;
+    font-weight: 600;
+    color: #3c2f60;
+}
+.heading-text span{
+    color: #5955b3;
+}
+.description{
+    display: block;
+    width: 50%;
+    color: #758283;
+}
+.btn{
+    margin-top: 60px;
+}
