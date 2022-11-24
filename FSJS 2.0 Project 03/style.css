@@ -1,2 +1,100 @@
 /* You can not modify anything from the HTML file */
 /* You can only modify the CSS file */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: Orbitron;
+}
+.div{
+    border: 1px solid blue;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+    height: 15vh;
+    padding: 0px 15vh;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+}
+.list-item{
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.list-item:nth-child(1){
+    border: none;
+    border-bottom: 3px solid #0D0D0D; 
+    mask-border-slice: 20px;
+}
+.button-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 9vw;
+}
+.nav-button{
+    padding: 15px 30px;
+    background: none;
+    border-radius: 12px;
+}
+.hero-container{
+    display: flex;
+    border: 1px solid red;
+}
+.container{
+    position: relative;
+}
+.square{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    height: 365px;
+    margin-right: 815px;
+} 
+.star{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+}  
+.hero-container span:nth-child(2){
+    /* position: absolute; */
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.globe{
+    position: absolute;
+    right: 0;
+}
+.hero-container div img{
+    margin-left: 125px ;
+    width: 470px;
+
+}
+.hero-container-right{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 75px ;
+}
+.hero-heading{
+    font-size: 50px;
+}
+.hero-description{
+    font-family: Poppins;
+    color: #758283;
+    text-align: center;
+}
+.icons span :nth-child(1){
+    width: 40px;
+}
